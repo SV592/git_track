@@ -25,8 +25,8 @@ class UsersFixture extends TestFixture
                 'username' => 'Lorem ipsum dolor sit amet',
                 'total_points' => 1,
                 'role' => 'Lorem ipsum dolor sit amet',
-                'created' => '2025-08-21 02:34:06',
-                'modified' => '2025-08-21 02:34:06',
+                'created' => '2025-08-21 18:22:38',
+                'modified' => '2025-08-21 18:22:38',
             ],
         ];
         parent::init();

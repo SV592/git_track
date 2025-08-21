@@ -77,4 +77,15 @@ class UsersTableTest extends TestCase
     {
         $this->markTestIncomplete('Not implemented yet.');
     }
+
+    /**
+     * Test beforeSave method
+     *
+     * @return void
+     * @link \App\Model\Table\UsersTable::beforeSave()
+     */
+    public function testBeforeSave(): void
+    {
+        $this->markTestIncomplete('Not implemented yet.');
+    }
 }
