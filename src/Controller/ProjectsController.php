@@ -17,8 +17,8 @@ class ProjectsController extends AppController
      */
     public function index()
     {
-        $query = $this->Projects->find();
-        $projects = $this->paginate($query);
+        $projectsQuery = $this->Projects->find()->contain(['Users']);
+        $projects = $this->paginate($this->Authorization->applyScope($projectsQuery));
 
         $this->set(compact('projects'));
     }
